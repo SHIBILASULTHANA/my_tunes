@@ -1,0 +1,204 @@
+body{
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+#head{
+    width: 100%;
+    height: 90px;
+}
+.navbar{ 
+    width: 100%;
+    height: 90px;
+    display: flex; 
+    background-color: #270082;
+    color: white;
+    position: fixed;
+    z-index: 1;
+}
+.logo{
+    padding-left: 50px;
+    padding-top: 25px;
+    font-size: 32px;
+    font-weight: 600;
+    font-family:  Arial, sans-serif;
+}
+.navbar ul{
+    margin:  0 auto;
+    padding-top: 30px;
+    padding-left: 55%;
+    padding-right: 50px;
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+}
+#bottom{
+    position: absolute;
+    top: 0;
+    
+}
+.overview{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/hero_image\ \(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    padding-top: 200px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    /* gap: 30px; */
+}
+.overview h1{
+    font-size: 96px;
+    font-family: "Roboto", sans-serif;
+}
+.overview h3{
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+    font-family: "Roboto", sans-serif;
+}
+.overview p{
+    font-size: 19px;
+    padding: 10px 50px 150px 50px;
+    line-height: 1.4;
+    font-weight: 300;
+}
+.music{
+    width: 100%;
+    height: 570px;
+    background-color: #281154;
+    padding-top: 70px;
+    color: white;
+    text-align: center;
+    font-family:"Roboto", sans-serif;
+}
+.music h1{
+    font-size: 25px;
+    font-weight: 800;
+}
+.music h4{
+    font-family: "Roboto",arial, sans-serif;
+    padding-left: 50px;
+    padding-right: 80px;
+    text-align: left;
+    line-height: 1.4em;
+}
+.music button{
+    padding: 10px 15px;
+    border: 0;
+}
+.btn{
+    background-color: #dc0000;
+    color: white;
+}
+.movie{
+    padding-top: 500px;
+    display: grid;
+    place-items: center;
+    gap: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.movie h3{
+    font-size: 1.17em;
+}
+.movie p{
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 15.5px;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.4;
+}
+.movie button{
+    padding: 10px 15px;
+    border: 0;
+}
+.btn2{
+    background-color: #270082;
+    color: white;
+}
+.video{ 
+    background-image: url(images/video.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 800px;
+    text-align: center;
+    color: white;
+    place-items: center;
+}
+.content{
+    padding-top: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+ .giftcard{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 100px 50px 100px 50px;
+    display: flex;
+    justify-content: space-between; 
+    gap: 10px;
+}
+.giftsection{
+    padding-left: 50px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+ .giftsection button{
+    padding: 10px 15px;
+    border: none;
+}
+.btn3{
+    background-color: #270082;
+    color: white;
+}
+.footer{
+    max-width: 1200px;
+    height: 200px;
+    background-color: #1b0058;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.f{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+}
+.f ul{
+    list-style-type: none;
+}
+ .copyright{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #270082;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    line-height: 1.4;
+ }
